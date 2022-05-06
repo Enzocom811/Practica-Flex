@@ -1,0 +1,68 @@
+/* HTML */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* FIN HTML */
+/* BODY */
+body {
+  background-color: gray;
+  margin: 0 150px;
+}
+
+/* FIN BODY */
+/* HEADER */
+header {
+  background-color: aquamarine;
+  padding: 60px;
+  margin: 10px 0;
+}
+
+/* FIN HEADER */
+/* MAIN */
+main {
+  display: flex;
+}
+main #columna-izq {
+  display: flex;
+  width: 20%;
+  height: 650px;
+  background-color: red;
+  margin-right: 5px;
+}
+main #columna-der {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 80%;
+  height: 650px;
+  background-color: green;
+  margin-left: 5px;
+}
+main #columna-der .box-container {
+  background-color: lightgreen;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 450px;
+}
+main #columna-der .box-container .box {
+  background-color: rgb(138, 196, 247);
+  padding: 100px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* FIN MAIN */
+/* FOOTER */
+footer {
+  background-color: aquamarine;
+  padding: 60px;
+  margin: 10px 0;
+}
+
+/* FIN FOOTER */
+
+/*# sourceMappingURL=style.css.map */
